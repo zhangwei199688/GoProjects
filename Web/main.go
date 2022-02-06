@@ -1,13 +1,9 @@
 package main
 
-import (
-	"gee"
-	"net/http"
-)
-
-
+import "fmt"
 
 func main() {
+	/*
 	r := gee.New()
 	r.Use(gee.Logger())
 
@@ -25,4 +21,8 @@ func main() {
 	}
 	r.Run(":9999")
 
+	 */
+	mp := map[byte]int{}
+	mp['a'] = 1
+	fmt.Println(mp['b'])
 }
